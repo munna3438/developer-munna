@@ -1,0 +1,61 @@
+.fotter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -6rem 0rem -20rem -4.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.f-image {
+    width: 100%;
+}
+.f-content {
+    position: absolute;
+    top: 22rem;
+    color: #3b4355;
+    text-align: center;
+}
+.f-content span {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* .f-content .f-icon {
+    margin-top: 14px;
+} */
+.f-content .f-icon a {
+    color: #3b4355;
+    font-size: 3rem;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.f-contect-text {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.f-contect-text div {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.f-contect-text div a {
+    text-decoration: none;
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px);
+    -moz-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    -o-transform: translateY(-4px);
+}
+
+@media screen and (max-width: 480px) {
+    .f-content {
+        left: 3rem;
+        top: 20rem;
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+}

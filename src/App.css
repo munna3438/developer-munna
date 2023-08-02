@@ -1,0 +1,115 @@
+:root {
+  --primary-color: #3b4355;
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --blueCard: #ddf8fe;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --btnshadow: 0 14px 24px 3px rgba(251, 161, 40, 0.42);
+  --primary-bg: #ffff;
+  --hamenu-bg: #fdc807;
+  --hamenu-hb-color: #1b1c2a;
+  z-index: -100;
+  scroll-behavior: smooth;
+}
+
+.active {
+  --primary-color: #ffff;
+  --primary-bg: #1b1c2a;
+  --hamenu-bg: #1b1c2a;
+  --hamenu-hb-color: orange;
+  z-index: -100;
+}
+
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--primary-color);
+  background: var(--primary-bg);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.App {
+  font-family: "Poppins", sans-serif;
+}
+
+.whatsappLink {
+  position: fixed;
+  bottom: 8%;
+  right: 4%;
+  z-index: 50;
+}
+
+.section {
+  margin: 3rem 0;
+}
+.btn {
+  padding: 5px 15px;
+  background: linear-gradient(180deg, #fbc50f 26.71%, #fb982f 99.36%);
+  text-decoration: none;
+  font-size: 19px;
+  border-radius: 10%;
+  box-shadow: var(--btnshadow);
+  color: #ffff;
+  -webkit-border-radius: 34px;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+.btn:hover {
+  background: #ffff;
+  color: var(--orange);
+  cursor: pointer;
+}
+
+.i-blur {
+  background: #edd0ff;
+  position: absolute;
+  height: 22rem;
+  width: 14rem;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -1;
+  top: 0rem;
+  right: 0rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-filter: blur(150px);
+}
+.my-title-style {
+  text-align: center;
+  font-family: "Kalam", cursive;
+}
+.my-title-style h1 {
+  font-size: 40px;
+  line-height: 2.2rem;
+}
+.my-title-style h1 span {
+  color: var(--orange);
+  margin-right: 8px;
+}
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 0.3rem 1rem;
+  }
+  .i-blur {
+    display: none;
+  }
+  .my-title-style h1 {
+    font-size: 30px;
+    line-height: 2rem;
+  }
+  .my-title-style h1 span {
+    color: var(--orange);
+    margin-right: 5px;
+  }
+}

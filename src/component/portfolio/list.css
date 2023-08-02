@@ -1,0 +1,16 @@
+.pmenu ul li {
+  display: inline-block;
+  color: black;
+  margin: 0 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.pmenu ul li.active {
+  background: #15023a;
+  color: #ffff;
+}

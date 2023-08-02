@@ -1,0 +1,97 @@
+.serviceCard {
+    position: relative;
+    height: 250px;
+    width: 230px;
+    padding: 10px;
+    border: 8px solid orange;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.ServiceCard1 {
+    top: 0rem;
+    left: 22rem;
+}
+.ServiceCard2 {
+    top: -3rem;
+    left: -3rem;
+}
+.ServiceCard3 {
+    top: -10rem;
+    left: 25rem;
+}
+.serviceCard h3 {
+    line-height: 0.1rem;
+    margin: 10px 0;
+}
+.serviceCard span {
+    cursor: pointer;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 5px 13px;
+    background: var(--bg-primary);
+    box-shadow: var(--boxShadow);
+}
+.serviceCard img {
+    height: 80px;
+    width: 80px;
+}
+
+.modal-backdrop {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 102;
+}
+.modal-content-wrapper {
+    position: fixed;
+    width: 45vw;
+    height: 300px;
+    background: #ffff;
+    margin: auto;
+    top: 55%;
+    bottom: 45%;
+    left: 0;
+    right: 0;
+    z-index: 103;
+}
+.modal-content {
+    padding: 10px 20px;
+    color: #3b4355;
+}
+.modal-content h3 {
+    color: orange;
+}
+@media screen and (max-width: 480px) {
+    .serviceCard {
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        position: relative;
+    }
+    .ServiceCard1 {
+        top: 3rem;
+        left: 2.5rem;
+    }
+    .ServiceCard2 {
+        top: 4rem;
+        left: 0;
+    }
+    .ServiceCard3 {
+        top: 6rem;
+        left: 3.5rem;
+    }
+}

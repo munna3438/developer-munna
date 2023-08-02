@@ -1,0 +1,188 @@
+@import '../../App.css';
+.navbar {
+    z-index: 99;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    left: 0rem;
+    top: 0rem;
+    background: var(--primary-bg);
+    border-bottom: 0.5px solid #ffa50042;
+    box-shadow: 0px -3px 30px 0px rgba(251, 161, 40, 0.42);
+}
+.wrapper {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: inherit;
+    align-items: center;
+}
+.wrapper .left {
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+    height: inherit;
+    align-items: center;
+}
+.wrapper .left a {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+/* toggle */
+.wrapper .left .toggle {
+    position: relative;
+    height: 1.5rem;
+    width: 3.2rem;
+    border: 4px solid orange;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.toggle-circle {
+    height: 1.2rem;
+    width: 1.2rem;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    z-index: 22;
+    background: orange;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.toggle-circle-active {
+    height: 1.2rem;
+    width: 1.2rem;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    z-index: 10;
+    background: orange;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.toggle-icon i:nth-child(1) {
+    color: black;
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    font-size: 21px;
+}
+.toggle-icon i:nth-child(2) {
+    color: #ffff;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    font-size: 21px;
+}
+.wrapper .right {
+    height: 100%;
+    display: flex;
+    flex: 10;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+.wrapper .right .menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.wrapper .right .menu ul {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.wrapper .right .menu ul li span {
+    text-decoration: none;
+    padding: 0 10px;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.wrapper .right .menu ul li span:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.wrapper .right .nbutton span {
+    font-weight: bold;
+}
+.hambergur {
+    width: 32px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    visibility: hidden;
+}
+.hambergur span {
+    width: 100%;
+    height: 3px;
+    background: var(--orange);
+    transform-origin: left;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.hamactive .hambergur span:nth-child(1) {
+    /* background: white; */
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.hamactive .hambergur span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamactive .hambergur span:nth-child(3) {
+    /* background: white; */
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+/* @media screen and (min-width: 480px) {
+    .navbar .wrapper .hamactive {
+        display: none;
+    }
+} */
+@media screen and (max-width: 480px) {
+    .navbar .wrapper .left {
+        display: flex;
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+    .navbar .wrapper .right .menu {
+        display: none;
+    }
+    .navbar .wrapper .right .nbutton {
+        display: none;
+    }
+    .hambergur {
+        visibility: visible;
+    }
+}

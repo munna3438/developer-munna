@@ -1,0 +1,76 @@
+.portfolio {
+    background: #fff;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.ptop {
+    margin-bottom: 40px;
+}
+.ptext h1 {
+    color: #15023a;
+}
+.p-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio .p-container a {
+    text-decoration: none;
+}
+
+.p-item {
+    width: 230px;
+    height: 150px;
+    position: relative;
+    border-radius: 10px;
+    margin: 20px 20px;
+    overflow: hidden;
+    border: 3px solid orange;
+    box-shadow: 2px 2px 20px rgba(255, 166, 0, 0.781);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.p-item-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.p-item-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #15023aea;
+    /* background: #fdc830; */
+    /* background: -webkit-linear-gradient(to top, #f37335, #fdc830);
+    background: linear-gradient(to top, #f37335, #fdc830); */
+
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+}
+
+.p-item:hover .p-item-overlay {
+    height: 100%;
+}
+
+.p-item-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}

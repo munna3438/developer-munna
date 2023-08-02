@@ -1,0 +1,50 @@
+.menue {
+    display: none;
+    background: var(--hamenu-bg);
+    position: fixed;
+    width: 60vw;
+    height: 100vh;
+    z-index: 90;
+    right: -300px;
+    top: 0;
+    transition: 1s all ease;
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+    -ms-transition: 1s all ease;
+    -o-transition: 1s all ease;
+}
+.menue nav {
+    position: relative;
+    top: 20%;
+    left: 7%;
+}
+.menue nav ul {
+    list-style: none;
+}
+.menue nav ul li {
+    color: #ffff;
+    font-size: 22px;
+    line-height: 3rem;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.menue nav ul li:hover {
+    cursor: pointer;
+    color: var(--hamenu-hb-color);
+    letter-spacing: 0.1rem;
+    font-size: 23px;
+}
+
+.hamenuactive {
+    right: 0;
+}
+@media screen and (max-width: 480px) {
+    .menue {
+        display: block;
+    }
+}

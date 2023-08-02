@@ -1,0 +1,78 @@
+.contect {
+    display: flex;
+    padding-top: 80px;
+    margin-top: -40px;
+}
+.contect-left {
+    flex: 6;
+    z-index: 10;
+}
+.c-l-map {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}
+.c-l-map iframe {
+    border: none;
+    box-shadow: 8px 8px 32px #2c1dd9ad;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+
+.contect-right {
+    flex: 6;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contect-right .form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contect-right .form input,
+textarea {
+    padding: 4px 10px;
+    box-shadow: 2px 4px 12px #2c1dd980;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    font-size: 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.contect-right .form input {
+    height: 2.2rem;
+}
+.contect-right .form input:focus {
+    border: 2px solid orange;
+    box-shadow: 2px 4px 12px #fbb31c;
+    outline: none;
+}
+.contect-right .form textarea:focus {
+    border: 2px solid orange;
+    box-shadow: 2px 4px 12px #fbb31c;
+    outline: none;
+}
+.contect-right .form button {
+    display: block;
+    width: 80px;
+    margin: auto;
+    border: none;
+}
+@media screen and (max-width: 480px) {
+    .contect {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .contect-right .form {
+        margin: auto;
+    }
+}
