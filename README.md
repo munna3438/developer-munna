@@ -1,2 +1,2 @@
 # this is my main portfolio
-live link: developermrmmunna.netlify.app
+live link: https://developermrmmunna.netlify.app/
