@@ -67,7 +67,7 @@ const Intro = () => {
               className="i-float1">
               <FloatingDiv
                 image={"assets/image/web_de_icon.png"}
-                text="Web Designer"
+                text="Web Developer"
               />
             </motion.div>
             <motion.div
@@ -77,7 +77,7 @@ const Intro = () => {
               className="i-float2">
               <FloatingDiv
                 image={"assets/image/wordpress_org_SVzkLk3.webp"}
-                text="Wordpress Developer"
+                text="Wordpress Expert"
               />
             </motion.div>
             <div className="i-blur"></div>
