@@ -45,6 +45,7 @@ export const featuredPortfolio = [
         id: 8,
         title: 'e-commerce web app',
         img: 'assets/image/portfolio/pimg2.png'
+        link: 'https://developermrmmunna.com/e-commerce/'
     },
     {
         id: 9,
