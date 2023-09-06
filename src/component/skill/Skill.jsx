@@ -1,4 +1,4 @@
-import CV from "../../cv/My_Pesional_Resume.pdf";
+import CV from "../../cv/Resume(munna).pdf";
 import "./skill.css";
 import SkillCard from "./SkillCard";
 
