@@ -2,7 +2,7 @@ export const featuredPortfolio = [
     {
         id: 1,
         title: 'e-commerce website',
-        img: 'assets/image/portfolio/pimg1.png',
+        img: 'assets/image/portfolio/pimg13.png',
         link: 'https://www.alhadiexpress.com.bd/'
     }
     {
