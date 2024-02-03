@@ -78,42 +78,54 @@ export const featuredPortfolio = [
 ];
 
 export const webPortfolio = [
-    {
+     {
         id: 1,
+        title: 'e-commerce website',
+        img: 'assets/image/portfolio/pimg16.png',
+        link: 'https://www.alhadiexpress.com.bd/'
+    },
+    {
+        id: 2,
+        title: 'landing page',
+        img: 'assets/image/portfolio/pimg17.png',
+        link: 'https://touchsmart.touchandsolve.com/'
+    },
+    {
+        id: 3,
         title: 'Busness Website',
         img: 'assets/image/portfolio/pimg1.png',
         link: 'https://codepen.io/Mrm-munna/full/NWrKVeO'
     },
     {
-        id: 2,
+        id: 4,
         title: 'e-commerce web app',
         img: 'assets/image/portfolio/pimg2.png'
     },
     {
-        id: 3,
+        id: 5,
         title: 'Portfolio Website',
         img: 'assets/image/portfolio/pimg4.png',
         link: 'https://developermrmmunna1.netlify.app/'
     },
     {
-        id: 4,
+        id: 6,
         title: 'Gym Website',
         img: 'assets/image/portfolio/pimg12.png',
         link: 'https://gymwebsite-mrm.surge.sh/'
     },
     {
-        id: 5,
+        id: 7,
         title: 'Educational Website',
         img: 'assets/image/portfolio/pimg3.png'
     },
     {
-        id: 6,
+        id: 8,
         title: 'appATM Theme',
         img: 'assets/image/portfolio/pimg6.png',
         link: 'https://codepen.io/Mrm-munna/full/KKMREEP'
     },
     {
-        id: 7,
+        id: 9,
         title: 'Android App Website',
         img: 'assets/image/portfolio/pimg7.png',
         link: 'https://codepen.io/Mrm-munna/full/MWyzXaX'
