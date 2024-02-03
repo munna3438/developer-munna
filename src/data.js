@@ -1,6 +1,12 @@
 export const featuredPortfolio = [
     {
         id: 1,
+        title: 'e-commerce website',
+        img: 'assets/image/portfolio/pimg1.png',
+        link: 'https://www.alhadiexpress.com.bd/'
+    }
+    {
+        id: 1,
         title: 'Busness Website',
         img: 'assets/image/portfolio/pimg1.png',
         link: 'https://codepen.io/Mrm-munna/full/NWrKVeO'
