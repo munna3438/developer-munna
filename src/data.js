@@ -2,70 +2,76 @@ export const featuredPortfolio = [
     {
         id: 1,
         title: 'e-commerce website',
-        img: 'assets/image/portfolio/pimg13.png',
+        img: 'assets/image/portfolio/pimg16.png',
         link: 'https://www.alhadiexpress.com.bd/'
-    }
+    },
     {
-        id: 1,
+        id: 2,
+        title: 'landing page',
+        img: 'assets/image/portfolio/pimg17.png',
+        link: 'https://touchsmart.touchandsolve.com/'
+    },
+    {
+        id: 2,
         title: 'Busness Website',
         img: 'assets/image/portfolio/pimg1.png',
         link: 'https://codepen.io/Mrm-munna/full/NWrKVeO'
     },
     {
-        id: 2,
+        id: 3,
         title: 'Gym Website',
         img: 'assets/image/portfolio/pimg12.png',
         link: 'https://gymwebsite-mrm.surge.sh/'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Portfolio Website',
         img: 'assets/image/portfolio/pimg4.png',
         link: 'https://developermrmmunna1.netlify.app/'
     },
     {
-        id: 4,
+        id: 5,
         title: 'Country App',
         img: 'assets/image/portfolio/pimg5.png',
         link: 'https://countryapp3438.netlify.app/'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Todo App',
         img: 'assets/image/portfolio/pimg10.png',
         link: 'https://mrmtodoapp.surge.sh/'
     },
     {
-        id: 6,
+        id: 7,
         title: 'appTheme Website',
         img: 'assets/image/portfolio/pimg7.png',
         link: 'https://codepen.io/Mrm-munna/full/MWyzXaX'
     },
     {
-        id: 7,
+        id: 8,
         title: '3D About Box',
         img: 'assets/image/portfolio/pimg8.png',
         link: 'https://codepen.io/Mrm-munna/full/xxJqdzY'
     },
     {
-        id: 8,
+        id: 9,
         title: 'e-commerce web app',
         img: 'assets/image/portfolio/pimg2.png',
         link: 'https://developermrmmunna.com/e-commerce/'
     },
     {
-        id: 9,
+        id: 10,
         title: 'Educational Website',
         img: 'assets/image/portfolio/pimg3.png'
     },
     {
-        id: 10,
+        id: 11,
         title: 'Android App Website',
         img: 'assets/image/portfolio/pimg7.png',
         link: 'https://codepen.io/Mrm-munna/full/MWyzXaX'
     },
     {
-        id: 11,
+        id: 12,
         title: 'Q&A',
         img: 'assets/image/portfolio/pimg9.png'
     }
